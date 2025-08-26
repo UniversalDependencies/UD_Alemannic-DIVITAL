@@ -9710,7 +9710,7 @@
 8	i	_	PRON	_	_	11	nsubj	_	Gloss[fr]=j'|Lemma[de]=ich
 9	de	_	DET	_	_	10	det	_	Gloss[fr]=le|Lemma[de]=der
 10	Fàde	_	NOUN	_	_	11	obj	_	Gloss[fr]=fil|Lemma[de]=Faden
-11	verlore	__	VERB	_	_	0	root	_	Gloss[fr]=perdu|Lemma[de]=verlieren
+11	verlore	_	VERB	_	_	0	root	_	Gloss[fr]=perdu|Lemma[de]=verlieren
 12	ùn	_	CCONJ	_	_	24	cc	_	Gloss[fr]=et|Lemma[de]=und
 13	bìn	_	AUX	_	_	24	aux	_	Gloss[fr]=suis|Lemma[de]=sein
 14	do	_	ADV	_	_	24	advmod:lmod	_	Gloss[fr]=là|Lemma[de]=da/hier
