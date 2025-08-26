@@ -3200,7 +3200,7 @@
 4	,	_	PUNCT	_	_	6	punct	_	Gloss[fr]=,|Lemma[de]=,
 5	wie	_	PRON	_	_	6	nsubj	_	Gloss[fr]=qui|Lemma[de]=wie/der
 6	vorgan	_	VERB	_	_	3	acl:relcl	_	Gloss[fr]=prétendent|Lemma[de]=vorgeben|SpaceAfter=No
-7	,	,	PUNCT	_	_	10	punct	_	Gloss[fr]=,|Lemma[de]=,
+7	,	_	PUNCT	_	_	10	punct	_	Gloss[fr]=,|Lemma[de]=,
 8	d	_	DET	_	_	9	det	_	Gloss[fr]=les|Lemma[de]=die
 9	Regionàlsproche	_	NOUN	_	_	10	obj	_	Gloss[fr]=langues régionales|Lemma[de]=Regionalsprache
 10	rette	_	VERB	_	_	6	ccomp	_	Gloss[fr]=sauver|Lemma[de]=retten
@@ -7719,7 +7719,7 @@
 5	ùnter	_	ADP	_	_	14	obl	_	Gloss[fr]=entre|Lemma[de]=unter
 6	ànderem	_	DET	_	_	5	fixed	_	Gloss[fr]=autres|Lemma[de]=anderes
 7	au	_	ADV	_	_	14	advmod	_	Gloss[fr]=aussi|Lemma[de]=auch
-8	–	-	PUNCT	_	_	7	punct	_	Gloss[fr]=–|Lemma[de]=–
+8	–	_	PUNCT	_	_	7	punct	_	Gloss[fr]=–|Lemma[de]=–
 9	Flämisch	_	NOUN	_	_	14	obj	_	Gloss[fr]=flamand|Lemma[de]=Flämisch|SpaceAfter=No
 10	,	_	PUNCT	_	_	11	punct	_	Gloss[fr]=,|Lemma[de]=,
 11	Càtàlànisch	_	NOUN	_	_	9	conj	_	Gloss[fr]=catalan|Lemma[de]=Katalanisch
@@ -8162,7 +8162,7 @@
 11	ze	_	PART	_	_	12	mark	_	Gloss[fr]=pour|Lemma[de]=zu
 12	laawe	_	VERB	_	_	8	xcomp	_	Gloss[fr]=vivre|Lemma[de]=leben
 13	derfe	_	AUX	_	_	12	aux	_	Gloss[fr]=avoir le droit|Lemma[de]=dürfen|SpaceAfter=No
-14	.	.	PUNCT	_	_	8	punct	_	Gloss[fr]=.|Lemma[de]=.
+14	.	_	PUNCT	_	_	8	punct	_	Gloss[fr]=.|Lemma[de]=.
 
 # sent_id = dpco_1256.39
 # text = Ùn dies fuer e einfàcher Grùnd : jedi Sproch isch e Warik vùm menschliche Genie.
@@ -15058,7 +15058,7 @@
 19	vùn	_	ADP	_	_	21	case	_	Gloss[fr]=de|Lemma[de]=von
 20	jedem	_	DET	_	_	21	det	_	Gloss[fr]=chaque|Lemma[de]=jedes
 21	Lànd	_	NOUN	_	_	15	nmod:poss	_	Gloss[fr]=pays|Lemma[de]=Land|SpaceAfter=No
-22	.	.	PUNCT	_	_	3	punct	_	Gloss[fr]=.|Lemma[de]=.
+22	.	_	PUNCT	_	_	3	punct	_	Gloss[fr]=.|Lemma[de]=.
 
 # sent_id = dpco_384.58
 # text = E jeder Mensch het s Racht, e Àrweit ze hàn, sini Àrweit fréi ze schwàsìere, gerachti ùn ordentlichi Àrweitsbedìngùnge ze hàn ùn gejje d’Àrweitslosichkeit gschìtzt ze sìnn.
@@ -20173,13 +20173,13 @@
 1	Se	_	PRON	P	_	3	obj	_	Gloss[fr]=les|Lemma[de]=sie
 2	àbtropfe	_	VERB	V	_	3	xcomp	_	Gloss[fr]=égoutter|Lemma[de]=abtropfen
 3	lon	_	VERB	V	_	0	root	_	Gloss[fr]=laisser|Lemma[de]=lassen|SpaceAfter=No
-4	,	,	PUNCT	$	_	5	punct	_	Gloss[fr]=,|Lemma[de]=,
+4	,	_	PUNCT	$	_	5	punct	_	Gloss[fr]=,|Lemma[de]=,
 5	àbkìehle	_	VERB	V	_	3	conj	_	Gloss[fr]=refroidir|Lemma[de]=abkühlen|SpaceAfter=No
-6	,	,	PUNCT	$	_	9	punct	_	Gloss[fr]=,|Lemma[de]=,
+6	,	_	PUNCT	$	_	9	punct	_	Gloss[fr]=,|Lemma[de]=,
 7	wìdder	_	ADV	D	_	9	advmod:tmod	_	Gloss[fr]=encore|Lemma[de]=wieder
 8	àbtropfe	_	VERB	V	_	9	xcomp	_	Gloss[fr]=égoutter|Lemma[de]=abtropfen
 9	lon	_	VERB	V	_	3	conj	_	Gloss[fr]=laisser|Lemma[de]=lassen|SpaceAfter=No
-10	.	.	PUNCT	$	_	3	punct	_	Gloss[fr]=.|Lemma[de]=.
+10	.	_	PUNCT	$	_	3	punct	_	Gloss[fr]=.|Lemma[de]=.
 
 # newdoc id = olca_240
 # title = Sìnge
@@ -20599,7 +20599,7 @@
 6	odder	_	CCONJ	D	_	7	cc	_	Gloss[fr]=ou|Lemma[de]=oder
 7	Drejeck	_	NOUN	N	_	5	conj	_	Gloss[fr]=triangles|Lemma[de]=Dreieck
 8	schniide	_	VERB	V	_	0	root	_	Gloss[fr]=couper|Lemma[de]=schneiden|SpaceAfter=No
-9	.	.	PUNCT	$	_	8	punct	_	Gloss[fr]=.|Lemma[de]=.
+9	.	_	PUNCT	$	_	8	punct	_	Gloss[fr]=.|Lemma[de]=.
 
 # sent_id = olca_338.17
 # text = Sie ìm Bùtter schwìtze lon, dànn d'Lìnse dezügenn.
