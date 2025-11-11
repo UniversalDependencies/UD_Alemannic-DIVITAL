@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>977</sentences><tokens>19334</tokens><words>19743</words><fused>409</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>977</sentences><tokens>19334</tokens><words>19743</words><fused>409</fused></test>
+  </size>
+  <lemmas unique="0" /><!--  -->
+  <forms unique="4982" /><!-- ,, ., de, ùn, m, e, het, wie, s, un, ze, d’, vùn, !, isch -->
+  <fusions unique="74" /><!-- im, vùm, ìm, àm, vum, zuem, des, vùme, bim, zum, am, ime, mìtem, ìme, ùffem -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="17">
+    <tag name="ADJ">1096</tag><!-- _ -->
+    <tag name="ADP">1640</tag><!-- _ -->
+    <tag name="ADV">1365</tag><!-- _ -->
+    <tag name="AUX">1350</tag><!-- _ -->
+    <tag name="CCONJ">729</tag><!-- _ -->
+    <tag name="DET">2712</tag><!-- _ -->
+    <tag name="INTJ">169</tag><!-- _ -->
+    <tag name="NOUN">2914</tag><!-- _ -->
+    <tag name="NUM">222</tag><!-- _ -->
+    <tag name="PART">313</tag><!-- _ -->
+    <tag name="PRON">1458</tag><!-- _ -->
+    <tag name="PROPN">413</tag><!-- _ -->
+    <tag name="PUNCT">3196</tag><!-- _ -->
+    <tag name="SCONJ">313</tag><!-- _ -->
+    <tag name="SYM">11</tag><!-- _ -->
+    <tag name="VERB">1796</tag><!-- _ -->
+    <tag name="X">46</tag><!-- _ -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="3">
+    <feat name="Epenthesis" value="Yes" upos="ADP,ADV,AUX,DET,SCONJ,VERB">35</feat><!-- so-n-, wisse-n-, wissen, worre-n-, wùrre-n-, Wissen', Wissen-, Wisse⸗n, bekùmme-n-, eso-n- -->
+    <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PRON,PROPN,SCONJ,VERB,X">468</feat><!-- de, la, les, et, Alsace, Conseil, l', d', constitutionnel, Rapport -->
+    <feat name="Typo" value="Yes" upos="ADV,PRON,SCONJ">4</feat><!-- o, sin, so, wo -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="55">
+    <dep name="acl">41</dep>
+    <dep name="acl:relcl">212</dep>
+    <dep name="advcl">185</dep>
+    <dep name="advcl:relcl">1</dep>
+    <dep name="advmod">815</dep>
+    <dep name="advmod:emph">142</dep>
+    <dep name="advmod:lmod">81</dep>
+    <dep name="advmod:tmod">286</dep>
+    <dep name="amod">574</dep>
+    <dep name="appos">153</dep>
+    <dep name="aux">891</dep>
+    <dep name="aux:pass">129</dep>
+    <dep name="case">1530</dep>
+    <dep name="cc">785</dep>
+    <dep name="cc:preconj">5</dep>
+    <dep name="ccomp">149</dep>
+    <dep name="compound">5</dep>
+    <dep name="compound:prt">125</dep>
+    <dep name="conj">979</dep>
+    <dep name="cop">289</dep>
+    <dep name="csubj">15</dep>
+    <dep name="csubj:outer">1</dep>
+    <dep name="det">2212</dep>
+    <dep name="det:poss">208</dep>
+    <dep name="det:predet">55</dep>
+    <dep name="discourse">176</dep>
+    <dep name="dislocated">23</dep>
+    <dep name="expl">135</dep>
+    <dep name="expl:pv">54</dep>
+    <dep name="fixed">105</dep>
+    <dep name="flat">103</dep>
+    <dep name="flat:name">32</dep>
+    <dep name="goeswith">3</dep>
+    <dep name="mark">543</dep>
+    <dep name="nmod">209</dep>
+    <dep name="nmod:lmod">66</dep>
+    <dep name="nmod:poss">243</dep>
+    <dep name="nmod:tmod">23</dep>
+    <dep name="nsubj">1373</dep>
+    <dep name="nsubj:outer">2</dep>
+    <dep name="nsubj:pass">108</dep>
+    <dep name="nummod">115</dep>
+    <dep name="obj">786</dep>
+    <dep name="obl">598</dep>
+    <dep name="obl:agent">24</dep>
+    <dep name="obl:arg">112</dep>
+    <dep name="obl:lmod">265</dep>
+    <dep name="obl:tmod">138</dep>
+    <dep name="orphan">9</dep>
+    <dep name="parataxis">168</dep>
+    <dep name="punct">3196</dep>
+    <dep name="reparandum">44</dep>
+    <dep name="root">977</dep>
+    <dep name="vocative">66</dep>
+    <dep name="xcomp">179</dep>
+  </deps>
+</treebank>
