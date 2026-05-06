@@ -1,7 +1,75 @@
-Usage:   perl -I ./tools ./tools/evaluate_treebank.pl <ud-treebank-name>
-Example: perl -I ./tools ./tools/evaluate_treebank.pl UD_Czech-PDTC
-Before running, make sure the current folder is one level above the clones of UD GitHub repositories.
-Specifically, the subfolders should include the evaluated treebank(s), as well as the tools folder,
-from which this script is invoked and which also holds the validator.
-$0 == tools/evaluate_treebank.pl
-The script must be invoked using relative path (starting with a dot) from the superordinate folder at tools/evaluate_treebank.pl line 40.
+Running the following version of UD tools:
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 5 17:01:41 2026 +0200
+Evaluating the following revision of UD_Alemannic-DIVITAL:
+commit 10b263803db37067ec8107cc3bc702e31b531db6
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed May 6 12:04:46 2026 +0200
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'gsw_divital'
+Language code (from CoNLL-U file name) = 'gsw'
+Found the following data files: gsw_divital-ud-test.conllu
+Size: counted 19743 of 19743 words (nodes).
+Size: min(0, log((N/1000)**2)) = 5.96559799628418.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: '_' is the most frequent lemma.
+Universal POS tags: 17 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 504 out of 19743 total words have one or more features.
+Features: source of annotation (from README) factor is 0.4.
+Universal relations: 33 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Genres: found 6 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang gsw --max-err=10 UD_Alemannic-DIVITAL/gsw_divital-ud-test.conllu
+[Line 650 Sent ala_138.40]: [L3 WARNING fixed-without-extpos] Fixed expression 'hit ze Dös' does not have the 'ExtPos' feature
+[Line 714 Sent ala_138.40]: [L3 WARNING fixed-without-extpos] Fixed expression 'so bàl' does not have the 'ExtPos' feature
+[Line 793 Sent ala_138.44]: [L3 WARNING fixed-without-extpos] Fixed expression 'vorne dràn' does not have the 'ExtPos' feature
+[Line 849 Sent ala_138.44]: [L3 WARNING fixed-without-extpos] Fixed expression 'z' Middàà' does not have the 'ExtPos' feature
+[Line 865 Sent ala_138.44]: [L3 WARNING fixed-without-extpos] Fixed expression 'meh oder wenjer' does not have the 'ExtPos' feature
+[Line 872 Sent ala_138.44]: [L3 WARNING fixed-without-extpos] Fixed expression 'z' Owets' does not have the 'ExtPos' feature
+[Line 913 Sent ala_138.44]: [L3 WARNING fixed-without-extpos] Fixed expression 'z' Owets' does not have the 'ExtPos' feature
+[Line 21 Sent ala_122.20]: [L3 WARNING pron-det-without-prontype] The word 'ich' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 30 Sent ala_122.20]: [L3 WARNING pron-det-without-prontype] The word 'ich' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 34 Sent ala_122.20]: [L3 WARNING pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 37 Sent ala_122.20]: [L3 WARNING pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 49 Sent ala_122.67]: [L3 WARNING pron-det-without-prontype] The word 'D' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 61 Sent ala_122.67]: [L3 WARNING pron-det-without-prontype] The word 'mànichi' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 63 Sent ala_122.67]: [L3 WARNING pron-det-without-prontype] The word 'wie' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 65 Sent ala_122.67]: [L3 WARNING pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 72 Sent ala_122.67]: [L3 WARNING pron-det-without-prontype] The word 'ebbs' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 91 Sent ala_122.89]: [L3 WARNING pron-det-without-prontype] The word 's' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 1495 Sent ala_146.106]: [L3 WARNING fixed-without-extpos] Fixed expression 'alle Dür' does not have the 'ExtPos' feature
+[Line 1602 Sent ala_148.16]: [L3 WARNING fixed-without-extpos] Fixed expression 'e Paar' does not have the 'ExtPos' feature
+[Line 2258 Sent ala_148.145]: [L3 SYNTAX obl-should-be-nmod] The parent (node [47] 'Boi') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2323 Sent ala_150.4]: [L3 WARNING fixed-without-extpos] Fixed expression 'e so' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 2965 Sent ala_154.52]: [L3 SYNTAX obl-should-be-nmod] The parent (node [35] 'Daaj') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3321 Sent dpco_1250.5]: [L3 SYNTAX obl-should-be-nmod] The parent (node [14] 'Üssawe') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3410 Sent dpco_1250.9]: [L3 SYNTAX obl-should-be-nmod] The parent (node [11] 'Lander') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 5902 Sent dpco_1254.6]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'Blanquer') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 6066 Sent dpco_1254.11]: [L3 SYNTAX obl-should-be-nmod] The parent (node [10] 'Stùnde') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 7590 Sent dpco_1256.13]: [L3 SYNTAX obl-should-be-nmod] The parent (node [13] 'Sàtz') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 9254 Sent dpco_1258.30]: [L3 SYNTAX obl-should-be-nmod] The parent (node [27] 'Brìlle') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 9281 Sent dpco_1258.31]: [L3 SYNTAX obl-should-be-nmod] The parent (node [20] 'Stìmm') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 10317 Sent dpco_1258.82]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'Krìtze') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 4262
+SYNTAX errors: 12
+*** FAILED *** with 12 errors
+Exit code: 1
+Validity: 0.01
+(weight=0.111111111111111) * (score{features}=0.12) = 0.0133333333333333
+(weight=0.111111111111111) * (score{genres}=0.333333333333333) = 0.037037037037037
+(weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
+(weight=0.37037037037037) * (score{size}=0.431804381839886) = 0.159927548829587
+(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
+(weight=0.111111111111111) * (score{tags}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{udeprels}=0.891891891891892) = 0.0990990990990991
+(TOTAL score=0.446804425706464) * (availability=1) * (validity=0.01) = 0.00446804425706464
+STARS = 0
+UD_Alemannic-DIVITAL	0.00446804425706464	0
