@@ -1,51 +1,7 @@
-Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
-Evaluating the following revision of UD_Alemannic-DIVITAL:
-commit 853be27377b6c0f5435cc54542f23ccc3585dbc4
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 18:38:36 2025 +0100
-CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
-Language-treebank code (from CoNLL-U file name) = 'gsw_divital'
-Language code (from CoNLL-U file name) = 'gsw'
-Found the following data files: gsw_divital-ud-test.conllu
-Size: counted 19743 of 19743 words (nodes).
-Size: min(0, log((N/1000)**2)) = 5.96559799628418.
-Size: maximum value 13.815511 is for 1000000 words or more.
-Split: Did not find more than 10000 training words.
-Split: Did not find at least 10000 development words.
-Split: Found at least 10000 test words.
-Lemmas: '_' is the most frequent lemma.
-Universal POS tags: 17 out of 17 found in the corpus.
-Universal POS tags: source of annotation (from README) factor is 1.
-Features: 504 out of 19743 total words have one or more features.
-Features: source of annotation (from README) factor is 0.4.
-Universal relations: 33 out of 37 found in the corpus.
-Universal relations: source of annotation (from README) factor is 1.
-Genres: found 6 out of 18 known.
-/net/work/people/zeman/unidep/tools/validate.py --lang gsw --max-err=10 UD_Alemannic-DIVITAL/gsw_divital-ud-test.conllu
-[Line 650 Sent ala_138.40]: [L3 Warning fixed-without-extpos] Fixed expression 'hit ze Dös' does not have the 'ExtPos' feature
-[Line 714 Sent ala_138.40]: [L3 Warning fixed-without-extpos] Fixed expression 'so bàl' does not have the 'ExtPos' feature
-[Line 793 Sent ala_138.44]: [L3 Warning fixed-without-extpos] Fixed expression 'vorne dràn' does not have the 'ExtPos' feature
-[Line 849 Sent ala_138.44]: [L3 Warning fixed-without-extpos] Fixed expression 'z' Middàà' does not have the 'ExtPos' feature
-[Line 865 Sent ala_138.44]: [L3 Warning fixed-without-extpos] Fixed expression 'meh oder wenjer' does not have the 'ExtPos' feature
-[Line 872 Sent ala_138.44]: [L3 Warning fixed-without-extpos] Fixed expression 'z' Owets' does not have the 'ExtPos' feature
-[Line 913 Sent ala_138.44]: [L3 Warning fixed-without-extpos] Fixed expression 'z' Owets' does not have the 'ExtPos' feature
-[Line 21 Sent ala_122.20]: [L3 Warning pron-det-without-prontype] The word 'ich' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 30 Sent ala_122.20]: [L3 Warning pron-det-without-prontype] The word 'ich' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 34 Sent ala_122.20]: [L3 Warning pron-det-without-prontype] The word 'e' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 4274
-*** PASSED ***
-Validity: 1
-(weight=0.111111111111111) * (score{features}=0.12) = 0.0133333333333333
-(weight=0.111111111111111) * (score{genres}=0.333333333333333) = 0.037037037037037
-(weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
-(weight=0.37037037037037) * (score{size}=0.431804381839886) = 0.159927548829587
-(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
-(weight=0.111111111111111) * (score{tags}=1) = 0.111111111111111
-(weight=0.111111111111111) * (score{udeprels}=0.891891891891892) = 0.0990990990990991
-(TOTAL score=0.446804425706464) * (availability=1) * (validity=1) = 0.446804425706464
-STARS = 2
-UD_Alemannic-DIVITAL	0.446804425706464	2
+Usage:   perl -I ./tools ./tools/evaluate_treebank.pl <ud-treebank-name>
+Example: perl -I ./tools ./tools/evaluate_treebank.pl UD_Czech-PDTC
+Before running, make sure the current folder is one level above the clones of UD GitHub repositories.
+Specifically, the subfolders should include the evaluated treebank(s), as well as the tools folder,
+from which this script is invoked and which also holds the validator.
+$0 == tools/evaluate_treebank.pl
+The script must be invoked using relative path (starting with a dot) from the superordinate folder at tools/evaluate_treebank.pl line 40.
