@@ -62,6 +62,8 @@ If you use this treebank, please cite this paper:
 
 # Changelog
 
+* 2026-11-15 v2.19
+  * Minor corrections
 * 2025-11-15 v2.17
   * Initial release in Universal Dependencies.
 
