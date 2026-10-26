@@ -3716,8 +3716,8 @@
 5	m	_	DET	_	_	6	det	_	Gloss[fr]=l'|Lemma[de]=das
 6	Beispiel	_	NOUN	_	_	10	obl	_	Gloss[fr]=exemple|Lemma[de]=Beispiel
 7	dùrich	_	ADP	_	_	8	case	_	Gloss[fr]=par|Lemma[de]=durch
-8	San	_	PROPN	_	Foreign=Yes	10	obl	_	Gloss[fr]=Saint|Lang=oci
-9	Rafèu	_	PROPN	_	Foreign=Yes	8	flat:name	_	Gloss[fr]=Raphaël|Lang=oci
+8	San	_	PROPN	_	Foreign=Yes	10	obl	_	Gloss[fr]=Saint|Lang=oc
+9	Rafèu	_	PROPN	_	Foreign=Yes	8	flat:name	_	Gloss[fr]=Raphaël|Lang=oc
 10	ersetzt	_	VERB	_	_	0	root	_	Gloss[fr]=remplacé|Lemma[de]=ersetzen|SpaceAfter=No
 11	.	_	PUNCT	_	_	10	punct	_	Gloss[fr]=.|Lemma[de]=.
 
@@ -7813,7 +7813,7 @@
 22	Saint-Tropez	_	PROPN	_	Foreign=Yes	16	nmod:lmod	_	Gloss[fr]=Saint-Tropez|Lang=fr|SpaceAfter=No
 23	,	_	PUNCT	_	_	16	punct	_	Gloss[fr]=,|Lemma[de]=,
 24	e	_	DET	_	_	25	det	_	Gloss[fr]=une|Lemma[de]=eine
-25	madraga	_	NOUN	_	Foreign=Yes	26	obj	_	Gloss[fr]=madrague|Lang=oci
+25	madraga	_	NOUN	_	Foreign=Yes	26	obj	_	Gloss[fr]=madrague|Lang=oc
 26	bezeichnet	_	VERB	_	_	8	ccomp	_	Gloss[fr]=désigne|Lemma[de]=bezeichnen|SpaceAfter=No
 27	,	_	PUNCT	_	_	29	punct	_	Gloss[fr]=,|Lemma[de]=,
 28	des	_	DET	_	_	29	nsubj	_	Gloss[fr]=ça|Lemma[de]=das
@@ -7855,13 +7855,13 @@
 16	àlte	_	ADJ	_	_	17	amod	_	Gloss[fr]=vieux|Lemma[de]=alt
 17	Schlaahüss	_	NOUN	_	_	12	obl	_	Gloss[fr]=abattoir|Lemma[de]=Schlaghaus/Schlachthaus
 18	(	_	PUNCT	_	_	20	punct	_	Gloss[fr]=(|Lemma[de]=(|SpaceAfter=No
-19	matar	_	VERB	_	Foreign=Yes	20	nsubj	_	Gloss[fr]=tuer|Lang=oci
+19	matar	_	VERB	_	Foreign=Yes	20	nsubj	_	Gloss[fr]=tuer|Lang=oc
 20	heisst	_	VERB	_	_	2	parataxis	_	Gloss[fr]=signifie|Lemma[de]=heißen
 21	"	_	PUNCT	_	_	22	punct	_	Gloss[fr]="|Lemma[de]="|SpaceAfter=No
 22	totschlawe	_	VERB	_	_	20	obj	_	Gloss[fr]=tuer|Lemma[de]=totschlagen|SpaceAfter=No
 23	"	_	PUNCT	_	_	22	punct	_	Gloss[fr]="|Lemma[de]="
 24	ùn	_	CCONJ	_	_	25	cc	_	Gloss[fr]=et|Lemma[de]=und
-25	bueu	_	NOUN	_	Foreign=Yes	20	conj	_	Gloss[fr]=bœuf|Lang=oci
+25	bueu	_	NOUN	_	Foreign=Yes	20	conj	_	Gloss[fr]=bœuf|Lang=oc
 26	"	_	PUNCT	_	_	27	punct	_	Gloss[fr]="|Lemma[de]="|SpaceAfter=No
 27	Ochs	_	NOUN	_	_	25	orphan	_	Gloss[fr]=bœuf|Lemma[de]=Ochse|SpaceAfter=No
 28	"	_	PUNCT	_	_	27	punct	_	Gloss[fr]="|Lemma[de]="|SpaceAfter=No
@@ -7889,13 +7889,13 @@
 15	Adour	_	PROPN	_	Foreign=Yes	12	nmod:poss	_	Gloss[fr]=Adour|Lang=fr
 16	bezeichnet	_	VERB	_	_	2	ccomp	_	Gloss[fr]=désigne|Lemma[de]=bezeichnen
 17	(	_	PUNCT	_	_	18	punct	_	Gloss[fr]=(|Lemma[de]=(|SpaceAfter=No
-18	boca	_	NOUN	_	Foreign=Yes	16	parataxis	_	Gloss[fr]=bouche|Lang=oci|SpaceAfter=No
+18	boca	_	NOUN	_	Foreign=Yes	16	parataxis	_	Gloss[fr]=bouche|Lang=oc|SpaceAfter=No
 19	:	_	PUNCT	_	_	21	punct	_	Gloss[fr]=:|Lemma[de]=:
 20	"	_	PUNCT	_	_	21	punct	_	Gloss[fr]="|Lemma[de]="|SpaceAfter=No
 21	Mül	_	NOUN	_	_	18	obj	_	Gloss[fr]=bouche|Lemma[de]=Maul/Mund|SpaceAfter=No
 22	"	_	PUNCT	_	_	21	punct	_	Gloss[fr]="|Lemma[de]="|SpaceAfter=No
 23	;	_	PUNCT	_	_	21	punct	_	Gloss[fr]=;|Lemma[de]=;
-24	bocau	_	NOUN	_	Foreign=Yes	18	conj	_	Gloss[fr]=embouchure|Lang=oci
+24	bocau	_	NOUN	_	Foreign=Yes	18	conj	_	Gloss[fr]=embouchure|Lang=oc
 25	:	_	PUNCT	_	_	27	punct	_	Gloss[fr]=:|Lemma[de]=:
 26	"	_	PUNCT	_	_	27	punct	_	Gloss[fr]="|Lemma[de]="|SpaceAfter=No
 27	Mindung	_	NOUN	_	_	24	obj	_	Gloss[fr]=embouchure|Lemma[de]=Mündung|SpaceAfter=No
@@ -18926,15 +18926,15 @@
 5	uf	_	ADP	_	_	6	case	_	Lemma[de]=auf|Gloss[fr]=en
 6	Elsassisch	_	NOUN	_	_	4	appos	_	SpaceAfter=No|Gloss[fr]=alsacien|Lemma[de]=Elsässisch
 7	,	_	PUNCT	_	_	8	punct	_	Lemma[de]=,|Gloss[fr]=,
-8	urte	_	X	_	Foreign=Yes	4	conj	_	Lang=eus
-9	berri	_	X	_	Foreign=Yes	8	flat	_	Lang=eus
+8	urte	_	X	_	Foreign=Yes	4	conj	_	Lang=eu
+9	berri	_	X	_	Foreign=Yes	8	flat	_	Lang=eu
 10	on	_	X	_	_	8	flat	_	Gloss[fr]=et|Lemma[de]=und
 11	uf	_	ADP	_	_	12	case	_	Lemma[de]=auf|Gloss[fr]=en
 12	Bàskisch	_	NOUN	_	_	8	appos	_	SpaceAfter=No|Gloss[fr]=basque|Lemma[de]=Baskisch
 13	,	_	PUNCT	_	_	14	punct	_	Lemma[de]=,|Gloss[fr]=,
-14	bon	_	X	_	Foreign=Yes	4	conj	_	Lang=cat
-15	ani	_	X	_	Foreign=Yes	14	flat	_	Lang=cat
-16	nou	_	X	_	Foreign=Yes	14	flat	_	Lang=cat
+14	bon	_	X	_	Foreign=Yes	4	conj	_	Lang=ca
+15	ani	_	X	_	Foreign=Yes	14	flat	_	Lang=ca
+16	nou	_	X	_	Foreign=Yes	14	flat	_	Lang=ca
 17	uf	_	ADP	_	_	18	case	_	Lemma[de]=auf|Gloss[fr]=en
 18	Kàtàlànisch	_	NOUN	_	_	14	appos	_	SpaceAfter=No|Gloss[fr]=catalan|Lemma[de]=Katalanisch
 19	,	_	PUNCT	_	_	20	punct	_	Lemma[de]=,|Gloss[fr]=,
@@ -18944,19 +18944,19 @@
 23	uf	_	ADP	_	_	24	case	_	Lemma[de]=auf|Gloss[fr]=en
 24	Korsikànisch	_	NOUN	_	_	20	appos	_	SpaceAfter=No|Gloss[fr]=corse|Lemma[de]=Korsisch
 25	,	_	PUNCT	_	_	26	punct	_	Lemma[de]=,|Gloss[fr]=,
-26	bon	_	X	_	Foreign=Yes	4	conj	_	Lang=hat
-27	lanné	_	X	_	Foreign=Yes	26	flat	_	Lang=hat
+26	bon	_	X	_	Foreign=Yes	4	conj	_	Lang=ht
+27	lanné	_	X	_	Foreign=Yes	26	flat	_	Lang=ht
 28	uf	_	ADP	_	_	29	case	_	Lemma[de]=auf|Gloss[fr]=en
 29	Kreolisch	_	NOUN	_	_	26	appos	_	Lemma[de]=Kreolisch|SpaceAfter=No|Gloss[fr]=créole
 30	,	_	PUNCT	_	_	31	punct	_	Lemma[de]=,|Gloss[fr]=,
-31	bonna	_	X	_	Foreign=Yes	4	conj	_	Lang=oci
-32	anada	_	X	_	Foreign=Yes	31	flat	_	Lang=oci
+31	bonna	_	X	_	Foreign=Yes	4	conj	_	Lang=oc
+32	anada	_	X	_	Foreign=Yes	31	flat	_	Lang=oc
 33	uf	_	ADP	_	_	34	case	_	Lemma[de]=auf|Gloss[fr]=en
 34	Okzitànisch	_	NOUN	_	_	31	appos	_	SpaceAfter=No|Gloss[fr]=occitan|Lemma[de]=Okzitanisch
 35	,	_	PUNCT	_	_	37	punct	_	Lemma[de]=,|Gloss[fr]=,
 36	oder	_	CCONJ	_	_	37	cc	_	Lemma[de]=oder|Gloss[fr]=ou
-37	bloavezh	_	X	_	Foreign=Yes	4	conj	_	Lang=bre
-38	mat	_	X	_	Foreign=Yes	37	flat	_	Lang=bre
+37	bloavezh	_	X	_	Foreign=Yes	4	conj	_	Lang=br
+38	mat	_	X	_	Foreign=Yes	37	flat	_	Lang=br
 39	uf	_	ADP	_	_	40	case	_	Lemma[de]=auf|Gloss[fr]=en
 40	Bretonisch	_	NOUN	_	_	37	appos	_	Lemma[de]=Bretonisch|SpaceAfter=No|Gloss[fr]=breton
 41	!	_	PUNCT	_	_	4	punct	_	Lemma[de]=!|Gloss[fr]=!
@@ -19536,8 +19536,8 @@
 2	Italie	_	PROPN	_	_	3	obl:lmod	_	Gloss[fr]=Italie|Lemma[de]=Italien
 3	seit	_	VERB	_	_	0	root	_	Gloss[fr]=dit|Lemma[de]=sagen
 4	mer	_	PRON	_	_	3	nsubj	_	Gloss[fr]=on|Lemma[de]=man
-5	Ma	_	DET	_	Foreign=Yes	3	obj	_	Lang=ita|Gloss[fr]=ma|Lemma[de]=meine
-6	Donna	_	NOUN	_	Foreign=Yes	5	flat	_	Lang=ita|Gloss[fr]=dame|Lemma[de]=Dame
+5	Ma	_	DET	_	Foreign=Yes	3	obj	_	Lang=it|Gloss[fr]=ma|Lemma[de]=meine
+6	Donna	_	NOUN	_	Foreign=Yes	5	flat	_	Lang=it|Gloss[fr]=dame|Lemma[de]=Dame
 7	wie	_	SCONJ	_	_	14	mark	_	Gloss[fr]=comme|Lemma[de]=wie
 8	mer	_	PRON	_	_	14	nsubj	_	Gloss[fr]=on|Lemma[de]=man
 9-10	im	_	_	_	_	_	_	_	_
@@ -23725,7 +23725,7 @@
 13	)	_	PUNCT	_	_	12	punct	_	Lemma[de]=)|Gloss[fr]=)
 14	,	_	PUNCT	_	_	21	punct	_	Lemma[de]=,|Gloss[fr]=,
 15	wo	_	PRON	_	_	21	obl	_	Lemma[de]=wo/die|Gloss[fr]=où
-16	Corsica	_	PROPN	_	Foreign=Yes	21	nsubj	_	Lang=cos
+16	Corsica	_	PROPN	_	Foreign=Yes	21	nsubj	_	Lang=co
 17	veel	_	DET	_	_	19	det	_	Lemma[de]=viel|Gloss[fr]=beaucoup de
 18	kültürelli	_	ADJ	_	_	19	amod	_	Lemma[de]=kulturell|Gloss[fr]=culturels
 19	Vrbindunge	_	NOUN	_	_	21	obj	_	Lemma[de]=Verbindung|Gloss[fr]=liens
@@ -23852,7 +23852,7 @@
 # sent_id = wkp_1318.28
 # text = Armorica ésch de Latinisation vun däm Wort - « ari » kummt vum Indoeuropeisch « pri » vor, bi (Àltirisch : « air, ar »: vor, Wallisisch « er »: f'r), « mori » = Meer (Irisch « muir », Genitiv « mara », Wallisisch un Breton: « mor »).
 # annotation = single
-1	Armorica	_	PROPN	_	Foreign=Yes	4	nsubj	_	Lang=lat
+1	Armorica	_	PROPN	_	Foreign=Yes	4	nsubj	_	Lang=la
 2	ésch	_	AUX	_	_	4	cop	_	Lemma[de]=sein|Gloss[fr]=est
 3	de	_	DET	_	_	4	det	_	Lemma[de]=die|Gloss[fr]=la
 4	Latinisation	_	NOUN	_	Foreign=Yes	0	root	_	Lang=fr
@@ -23887,7 +23887,7 @@
 32	,	_	PUNCT	_	_	33	punct	_	Lemma[de]=,|Gloss[fr]=,
 33	Wallisisch	_	NOUN	_	_	23	conj	_	Lemma[de]=Walisisch|Gloss[fr]=gallois
 34	«	_	PUNCT	_	_	35	punct	_	Lemma[de]=«|Gloss[fr]=«
-35	er	_	X	_	Foreign=Yes	33	appos	_	Lang=cym
+35	er	_	X	_	Foreign=Yes	33	appos	_	Lang=cy
 36	»	_	PUNCT	_	_	35	punct	_	Lemma[de]=»|Gloss[fr]=»|SpaceAfter=No
 37	:	_	PUNCT	_	_	38	punct	_	Lemma[de]=:|Gloss[fr]=:
 38	f'r	_	X	_	_	35	appos	_	Lemma[de]=für|Gloss[fr]=pour|SpaceAfter=No
@@ -23901,12 +23901,12 @@
 46	(	_	PUNCT	_	_	47	punct	_	Lemma[de]=(|Gloss[fr]=(|SpaceAfter=No
 47	Irisch	_	NOUN	_	_	45	appos	_	Lemma[de]=Irisch|Gloss[fr]=irlandais
 48	«	_	PUNCT	_	_	49	punct	_	Lemma[de]=«|Gloss[fr]=«
-49	muir	_	X	_	Foreign=Yes	47	appos	_	Lang=gle
+49	muir	_	X	_	Foreign=Yes	47	appos	_	Lang=ga
 50	»	_	PUNCT	_	_	49	punct	_	Lemma[de]=»|Gloss[fr]=»|SpaceAfter=No
 51	,	_	PUNCT	_	_	52	punct	_	Lemma[de]=,|Gloss[fr]=,
 52	Genitiv	_	NOUN	_	_	49	conj	_	Lemma[de]=Genitiv|Gloss[fr]=génitif
 53	«	_	PUNCT	_	_	54	punct	_	Lemma[de]=«|Gloss[fr]=«
-54	mara	_	X	_	Foreign=Yes	52	appos	_	Lang=gle
+54	mara	_	X	_	Foreign=Yes	52	appos	_	Lang=ga
 55	»	_	PUNCT	_	_	54	punct	_	Lemma[de]=»|Gloss[fr]=»|SpaceAfter=No
 56	,	_	PUNCT	_	_	57	punct	_	Lemma[de]=,|Gloss[fr]=,
 57	Wallisisch	_	PROPN	_	_	47	conj	_	Lemma[de]=Wallisisch|Gloss[fr]=gallois
@@ -23914,7 +23914,7 @@
 59	Breton	_	PROPN	_	Foreign=Yes	57	conj	_	Lang=fr|SpaceAfter=No
 60	:	_	PUNCT	_	_	62	punct	_	Lemma[de]=:|Gloss[fr]=:
 61	«	_	PUNCT	_	_	62	punct	_	Lemma[de]=«|Gloss[fr]=«
-62	mor	_	X	_	Foreign=Yes	57	appos	_	Lang=cym/bre
+62	mor	_	X	_	Foreign=Yes	57	appos	_	Lang=br
 63	»	_	PUNCT	_	_	62	punct	_	Lemma[de]=»|Gloss[fr]=»|SpaceAfter=No
 64	)	_	PUNCT	_	_	47	punct	_	Lemma[de]=)|Gloss[fr]=)|SpaceAfter=No
 65	.	_	PUNCT	_	_	12	punct	_	Lemma[de]=.|Gloss[fr]=.
@@ -24103,7 +24103,7 @@
 46	suche	_	VERB	_	Foreign=Yes	36	appos	_	Lang=de
 47	den	_	DET	_	Foreign=Yes	48	det	_	Lang=de
 48	Schlüssel	_	NOUN	_	Foreign=Yes	46	obj	_	Lang=de
-49	des	_	DET	_	Foreign=Yes	50	det	_	Lang=der
+49	des	_	DET	_	Foreign=Yes	50	det	_	Lang=de
 50	Hauses	_	NOUN	_	Foreign=Yes	48	nmod:poss	_	Lang=de|SpaceAfter=No
 51	“	_	PUNCT	_	_	46	punct	_	SpaceAfter=No|Lemma[de]=“|Gloss[fr]=“
 52	)	_	PUNCT	_	_	22	punct	_	Lemma[de]=)|SpaceAfter=No|Gloss[fr]=)
@@ -24854,9 +24854,9 @@
 # annotation = single
 1	S	_	DET	_	_	2	det	_	Lemma[de]=das|Gloss[fr]=la
 2	Verein	_	NOUN	_	_	14	nsubj	_	Lemma[de]=Verein|Gloss[fr]=association
-3	AMCT	_	PROPN	_	Foreign=Yes	2	appos	_	Lang=fr/en
+3	AMCT	_	PROPN	_	Foreign=Yes	2	appos	_	Lang=en
 4	(	_	PUNCT	_	_	5	punct	_	Lemma[de]=(|SpaceAfter=No|Gloss[fr]=(
-5	Alsace	_	PROPN	_	Foreign=Yes	3	appos	_	Lang=fr/en
+5	Alsace	_	PROPN	_	Foreign=Yes	3	appos	_	Lang=en
 6	Medina	_	PROPN	_	Foreign=Yes	5	flat	_	Lang=en
 7	County	_	PROPN	_	Foreign=Yes	5	flat	_	Lang=en
 8	Texas	_	PROPN	_	Foreign=Yes	5	flat	_	Lang=en
