@@ -5899,7 +5899,7 @@
 2	Blanquer	_	PROPN	_	_	15	nsubj	_	Gloss[fr]=Blanquer|Lemma[de]=Blanquer
 3	fer	_	ADP	_	_	5	case	_	Gloss[fr]=pour|Lemma[de]=für
 4	sin	_	DET	_	_	5	det:poss	_	Gloss[fr]=sa|Lemma[de]=sein
-5	Teil	_	NOUN	_	_	15	obl:mod	_	Gloss[fr]=part|Lemma[de]=Teil|SpaceAfter=No
+5	Teil	_	NOUN	_	_	15	obl	_	Gloss[fr]=part|Lemma[de]=Teil|SpaceAfter=No
 6	,	_	PUNCT	_	_	12	punct	_	Gloss[fr]=,|Lemma[de]=,
 7	wie	_	PRON	_	_	12	nsubj	_	Gloss[fr]=qui|Lemma[de]=wie/der
 8	sini	_	DET	_	_	9	det:poss	_	Gloss[fr]=sa|Lemma[de]=sein
