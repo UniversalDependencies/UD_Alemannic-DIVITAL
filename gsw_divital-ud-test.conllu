@@ -2255,7 +2255,7 @@
 49	,	_	PUNCT	_	_	52	punct	_	Lemma[de]=,|Gloss[fr]=,
 50	vo	_	ADP	_	_	52	case	_	Lemma[de]=von|Gloss[fr]=de
 51	me	_	DET	_	_	52	det	_	Lemma[de]=ein|Gloss[fr]=un
-52	Ferieheim	_	NOUN	_	_	47	obl	_	Lemma[de]=Ferienheim|SpaceAfter=No|Gloss[fr]=colonie de vacances/centre de vacances
+52	Ferieheim	_	NOUN	_	_	47	nmod	_	Lemma[de]=Ferienheim|SpaceAfter=No|Gloss[fr]=colonie de vacances/centre de vacances
 53	,	_	PUNCT	_	_	54	punct	_	Lemma[de]=,|Gloss[fr]=,
 54	colonie	_	NOUN	_	Foreign=Yes	52	appos	_	Lang=fr
 55	de	_	ADP	_	Foreign=Yes	56	case	_	Lang=fr
@@ -2962,7 +2962,7 @@
 33	zwei	_	NUM	_	_	35	nummod	_	Lemma[de]=zwei|Gloss[fr]=deux
 34	drei	_	NUM	_	_	35	nummod	_	Lemma[de]=drei|Gloss[fr]=trois
 35	Daaj	_	NOUN	_	_	45	obl:tmod	_	Gloss[fr]=jours|Lemma[de]=Tag
-36	druf	_	ADV	_	_	35	obl	_	Lemma[de]=darauf|SpaceAfter=No|Gloss[fr]=après
+36	druf	_	ADV	_	_	35	nmod	_	Lemma[de]=darauf|SpaceAfter=No|Gloss[fr]=après
 37	,	_	PUNCT	_	_	45	punct	_	Lemma[de]=,|Gloss[fr]=,
 38	esch	_	AUX	_	_	45	aux	_	Lemma[de]=sein|Gloss[fr]=est
 39	die	_	DET	_	_	40	det	_	Lemma[de]=die|Gloss[fr]=la
@@ -3315,10 +3315,10 @@
 17	nix	_	PRON	_	_	18	obl	_	Gloss[fr]=rien|Lemma[de]=nichts
 18	fuehre	_	VERB	_	_	14	acl:relcl	_	Gloss[fr]=engagent|Lemma[de]=führen|SpaceAfter=No
 19	,	_	PUNCT	_	_	23	punct	_	Gloss[fr]=,|Lemma[de]=,
-20	sowie	_	ADP	_	_	23	case	_	Gloss[fr]=comme/du type|Lemma[de]=sowie
+20	sowie	_	CCONJ	_	_	23	cc	_	Gloss[fr]=comme/du type|Lemma[de]=sowie
 21	:	_	PUNCT	_	_	23	punct	_	Gloss[fr]=:|Lemma[de]=:
 22	Ich	_	PRON	_	_	23	nsubj	_	Gloss[fr]=j'|Lemma[de]=ich
-23	hàb	_	VERB	_	_	14	obl	_	Gloss[fr]=ai|Lemma[de]=haben
+23	hàb	_	VERB	_	_	14	conj	_	Gloss[fr]=ai|Lemma[de]=haben
 24	die	_	DET	_	_	26	det	_	Gloss[fr]=ces|Lemma[de]=diese
 25	scheene	_	ADJ	_	_	26	amod	_	Gloss[fr]=belles|Lemma[de]=schön
 26	Sproche	_	NOUN	_	_	23	obj	_	Gloss[fr]=langues|Lemma[de]=Sprache|SpaceAfter=No
@@ -3407,7 +3407,7 @@
 10	in	_	ADP	_	_	11	case	_	Gloss[fr]=dans|Lemma[de]=in
 11	Lander	_	NOUN	_	_	14	obl:lmod	_	Gloss[fr]=pays|Lemma[de]=Land
 12	wie	_	ADP	_	_	13	case	_	Gloss[fr]=comme|Lemma[de]=wie
-13	unsers	_	DET	_	_	11	obl	_	Gloss[fr]=le notre|Lemma[de]=unser
+13	unsers	_	DET	_	_	11	nmod	_	Gloss[fr]=le notre|Lemma[de]=unser
 14	durichgfiehrt	_	VERB	_	_	6	acl:relcl	_	Gloss[fr]=appliquées|Lemma[de]=durchführen
 15	worre	_	AUX	_	_	14	aux:pass	_	Gloss[fr]=été|Lemma[de]=werden
 16	sin	_	AUX	_	_	14	aux	_	Gloss[fr]=sont|Lemma[de]=sein|SpaceAfter=No
@@ -5899,7 +5899,7 @@
 2	Blanquer	_	PROPN	_	_	15	nsubj	_	Gloss[fr]=Blanquer|Lemma[de]=Blanquer
 3	fer	_	ADP	_	_	5	case	_	Gloss[fr]=pour|Lemma[de]=für
 4	sin	_	DET	_	_	5	det:poss	_	Gloss[fr]=sa|Lemma[de]=sein
-5	Teil	_	NOUN	_	_	2	obl	_	Gloss[fr]=part|Lemma[de]=Teil|SpaceAfter=No
+5	Teil	_	NOUN	_	_	15	obl:mod	_	Gloss[fr]=part|Lemma[de]=Teil|SpaceAfter=No
 6	,	_	PUNCT	_	_	12	punct	_	Gloss[fr]=,|Lemma[de]=,
 7	wie	_	PRON	_	_	12	nsubj	_	Gloss[fr]=qui|Lemma[de]=wie/der
 8	sini	_	DET	_	_	9	det:poss	_	Gloss[fr]=sa|Lemma[de]=sein
@@ -6063,28 +6063,28 @@
 11-12	im	_	_	_	_	_	_	_	_
 11	i	_	ADP	_	_	13	case	_	Gloss[fr]=à|Lemma[de]=in
 12	m	_	DET	_	_	13	det	_	Gloss[fr]=le|Lemma[de]=der
-13	CE1	_	NOUN	_	Foreign=Yes	10	obl	_	Gloss[fr]=CE1|Lang=fr|SpaceAfter=No
+13	CE1	_	NOUN	_	Foreign=Yes	10	nmod	_	Gloss[fr]=CE1|Lang=fr|SpaceAfter=No
 14	,	_	PUNCT	_	_	16	punct	_	Gloss[fr]=,|Lemma[de]=,
 15	4	_	NUM	_	_	16	nummod	_	Gloss[fr]=4|Lemma[de]=4
 16	Stùnde	_	NOUN	_	_	10	conj	_	Gloss[fr]=heures|Lemma[de]=Stunde
 17-18	im	_	_	_	_	_	_	_	_
 17	i	_	ADP	_	_	19	case	_	Gloss[fr]=à|Lemma[de]=in
 18	m	_	DET	_	_	19	det	_	Gloss[fr]=le|Lemma[de]=der
-19	CE2	_	NOUN	_	Foreign=Yes	16	obl	_	Gloss[fr]=CE2|Lang=fr|SpaceAfter=No
+19	CE2	_	NOUN	_	Foreign=Yes	16	nmod	_	Gloss[fr]=CE2|Lang=fr|SpaceAfter=No
 20	,	_	PUNCT	_	_	22	punct	_	Gloss[fr]=,|Lemma[de]=,
 21	5	_	NUM	_	_	22	nummod	_	Gloss[fr]=5|Lemma[de]=5
 22	Stùnde	_	NOUN	_	_	10	conj	_	Gloss[fr]=heures|Lemma[de]=Stunde
 23-24	im	_	_	_	_	_	_	_	_
 23	i	_	ADP	_	_	25	case	_	Gloss[fr]=à|Lemma[de]=in
 24	m	_	DET	_	_	25	det	_	Gloss[fr]=le|Lemma[de]=der
-25	CM1	_	NOUN	_	Foreign=Yes	22	obl	_	Gloss[fr]=CM1|Lang=fr
+25	CM1	_	NOUN	_	Foreign=Yes	22	nmod	_	Gloss[fr]=CM1|Lang=fr
 26	ùn	_	CCONJ	_	_	28	cc	_	Gloss[fr]=et|Lemma[de]=und
 27	6	_	NUM	_	_	28	nummod	_	Gloss[fr]=6|Lemma[de]=6
 28	Stùnde	_	NOUN	_	_	10	conj	_	Gloss[fr]=heures|Lemma[de]=Stunde
 29-30	im	_	_	_	_	_	_	_	_
 29	i	_	ADP	_	_	31	case	_	Gloss[fr]=à|Lemma[de]=in
 30	m	_	DET	_	_	31	det	_	Gloss[fr]=le|Lemma[de]=der
-31	CM2	_	NOUN	_	Foreign=Yes	28	obl	_	Gloss[fr]=CM2|Lang=fr|SpaceAfter=No
+31	CM2	_	NOUN	_	Foreign=Yes	28	nmod	_	Gloss[fr]=CM2|Lang=fr|SpaceAfter=No
 32	,	_	PUNCT	_	_	35	punct	_	Gloss[fr]=,|Lemma[de]=,
 33-34	zuem	_	_	_	_	_	_	_	_
 33	zue	_	ADP	_	_	35	case	_	Gloss[fr]=par|Lemma[de]=zu
@@ -7587,7 +7587,7 @@
 15	wie	_	ADP	_	_	18	case	_	Gloss[fr]=que|Lemma[de]=wie
 16	„	_	PUNCT	_	_	18	punct	_	Gloss[fr]=«|Lemma[de]=„|SpaceAfter=No
 17	ich	_	PRON	_	_	18	nsubj	_	Gloss[fr]=je|Lemma[de]=ich
-18	iss	_	VERB	_	_	13	obl	_	Gloss[fr]=mange|Lemma[de]=essen
+18	iss	_	VERB	_	_	13	nmod	_	Gloss[fr]=mange|Lemma[de]=essen
 19	Brot	_	NOUN	_	_	18	obj	_	Gloss[fr]=pain|Lemma[de]=Brot|SpaceAfter=No
 20	“	_	PUNCT	_	_	18	punct	_	Gloss[fr]=»|Lemma[de]=“|SpaceAfter=No
 21	,	_	PUNCT	_	_	41	punct	_	Gloss[fr]=,|Lemma[de]=,
@@ -9251,7 +9251,7 @@
 28	schrajs	_	ADJ	_	_	31	advmod	_	Gloss[fr]=en travers|Lemma[de]=schrägs/schräg
 29	ùff	_	ADP	_	_	31	case	_	Gloss[fr]=sur|Lemma[de]=auf
 30	de	_	DET	_	_	31	det	_	Gloss[fr]=la|Lemma[de]=die
-31	Sitte	_	NOUN	_	_	27	obl:lmod	_	Gloss[fr]=page|Lemma[de]=Seite|SpaceAfter=No
+31	Sitte	_	NOUN	_	_	27	nmod:lmod	_	Gloss[fr]=page|Lemma[de]=Seite|SpaceAfter=No
 32	.	_	PUNCT	_	_	13	punct	_	Gloss[fr]=.|Lemma[de]=.
 
 # sent_id = dpco_1258.31
@@ -9278,7 +9278,7 @@
 19	arnschte	_	ADJ	_	_	17	conj	_	Gloss[fr]=grave|Lemma[de]=ernst
 20	Stìmm	_	NOUN	_	_	23	obl	_	Gloss[fr]=voix|Lemma[de]=Stimme
 21	wie	_	ADP	_	_	22	case	_	Gloss[fr]=que|Lemma[de]=wie
-22	vorhar	_	ADV	_	_	20	obl:tmod	_	Gloss[fr]=précédemment/tout à l'heure|Lemma[de]=vorher
+22	vorhar	_	ADV	_	_	20	nmod:tmod	_	Gloss[fr]=précédemment/tout à l'heure|Lemma[de]=vorher
 23	gsäät	_	VERB	_	_	10	conj	_	Gloss[fr]=dit|Lemma[de]=sagen|SpaceAfter=No
 24	:	_	PUNCT	_	_	10	punct	_	Gloss[fr]=:|Lemma[de]=:
 
@@ -10314,7 +10314,7 @@
 13-14	ùffs	_	_	_	_	_	_	_	_
 13	ùff	_	ADP	_	_	15	case	_	Gloss[fr]=sur|Lemma[de]=auf
 14	s	_	DET	_	_	15	det	_	Gloss[fr]=le|Lemma[de]=das
-15	Pàpìer	_	NOUN	_	_	9	obl	_	Gloss[fr]=papier|Lemma[de]=Papier|SpaceAfter=No
+15	Pàpìer	_	NOUN	_	_	9	nmod	_	Gloss[fr]=papier|Lemma[de]=Papier|SpaceAfter=No
 16	.	_	PUNCT	_	_	4	punct	_	Gloss[fr]=.|Lemma[de]=.
 
 # sent_id = dpco_1258.83
@@ -14534,7 +14534,7 @@
 16	,	_	PUNCT	_	_	19	punct	_	Gloss[fr]=,|Lemma[de]=,
 17	ohne	_	ADP	_	_	19	case	_	Gloss[fr]=sans|Lemma[de]=ohne
 18	jedi	_	DET	_	_	19	det	_	Gloss[fr]=aucune|Lemma[de]=jede
-19	Bschrankùng	_	NOUN	_	_	7	obl	_	Gloss[fr]=limitation|Lemma[de]=Beschränkung|SpaceAfter=No
+19	Bschrankùng	_	NOUN	_	_	10	obl	_	Gloss[fr]=limitation|Lemma[de]=Beschränkung|SpaceAfter=No
 20	,	_	PUNCT	_	_	30	punct	_	Gloss[fr]=,|Lemma[de]=,
 21	wàs	_	PRON	_	_	30	nsubj	_	Gloss[fr]=en ce qui|Lemma[de]=was
 22	d’	_	DET	_	_	23	det	_	Gloss[fr]=la|Lemma[de]=die|SpaceAfter=No
@@ -19786,7 +19786,7 @@
 7	,	_	PUNCT	_	_	10	punct	_	Lemma[de]=,|Gloss[fr]=,
 8	wie	_	SCONJ	_	_	10	case	_	Lemma[de]=wie|Gloss[fr]=comme
 9	andere	_	DET	_	_	10	det	_	Lemma[de]=anderes|Gloss[fr]=d'autres
-10	Wîbervelker	_	NOUN	_	_	6	obl	_	Lemma[de]=Weibervolk|Gloss[fr]=femmes
+10	Wîbervelker	_	NOUN	_	_	6	nmod	_	Lemma[de]=Weibervolk|Gloss[fr]=femmes
 11	!	_	PUNCT	_	_	3	punct	_	Lemma[de]=!|SpaceAfter=No|Gloss[fr]=!
 12	“	_	PUNCT	_	_	3	punct	_	Lemma[de]=“|SpaceAfter=No|Gloss[fr]=“
 13	–	_	PUNCT	_	_	3	punct	_	Lemma[de]=–|SpaceAfter=No|Gloss[fr]=–
