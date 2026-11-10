@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Alemannic-DIVITAL:
-commit 10b263803db37067ec8107cc3bc702e31b531db6
+commit 381074dc6b7de090d731806bc41e5f4a728f00e0
+Merge: 384e117 9189f11
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed May 6 12:04:46 2026 +0200
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'gsw_divital'
 Language code (from CoNLL-U file name) = 'gsw'
@@ -45,24 +45,11 @@ Genres: found 6 out of 18 known.
 ...suppressing further messages regarding WARNING/MORPHO
 [Line 1495 Sent ala_146.106]: [L3 WARNING fixed-without-extpos] Fixed expression 'alle Dür' does not have the 'ExtPos' feature
 [Line 1602 Sent ala_148.16]: [L3 WARNING fixed-without-extpos] Fixed expression 'e Paar' does not have the 'ExtPos' feature
-[Line 2258 Sent ala_148.145]: [L3 SYNTAX obl-should-be-nmod] The parent (node [47] 'Boi') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 [Line 2323 Sent ala_150.4]: [L3 WARNING fixed-without-extpos] Fixed expression 'e so' does not have the 'ExtPos' feature
 ...suppressing further messages regarding WARNING/SYNTAX
-[Line 2965 Sent ala_154.52]: [L3 SYNTAX obl-should-be-nmod] The parent (node [35] 'Daaj') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 3321 Sent dpco_1250.5]: [L3 SYNTAX obl-should-be-nmod] The parent (node [14] 'Üssawe') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 3410 Sent dpco_1250.9]: [L3 SYNTAX obl-should-be-nmod] The parent (node [11] 'Lander') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 5902 Sent dpco_1254.6]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'Blanquer') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 6066 Sent dpco_1254.11]: [L3 SYNTAX obl-should-be-nmod] The parent (node [10] 'Stùnde') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 7590 Sent dpco_1256.13]: [L3 SYNTAX obl-should-be-nmod] The parent (node [13] 'Sàtz') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 9254 Sent dpco_1258.30]: [L3 SYNTAX obl-should-be-nmod] The parent (node [27] 'Brìlle') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 9281 Sent dpco_1258.31]: [L3 SYNTAX obl-should-be-nmod] The parent (node [20] 'Stìmm') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 10317 Sent dpco_1258.82]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'Krìtze') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-...suppressing further messages regarding ERROR/SYNTAX
-Warnings: 4262
-SYNTAX errors: 12
-*** FAILED *** with 12 errors
-Exit code: 1
-Validity: 0.01
+Warnings: 4267
+*** PASSED ***
+Validity: 1
 (weight=0.111111111111111) * (score{features}=0.12) = 0.0133333333333333
 (weight=0.111111111111111) * (score{genres}=0.333333333333333) = 0.037037037037037
 (weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
@@ -70,6 +57,6 @@ Validity: 0.01
 (weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
 (weight=0.111111111111111) * (score{tags}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{udeprels}=0.891891891891892) = 0.0990990990990991
-(TOTAL score=0.446804425706464) * (availability=1) * (validity=0.01) = 0.00446804425706464
-STARS = 0
-UD_Alemannic-DIVITAL	0.00446804425706464	0
+(TOTAL score=0.446804425706464) * (availability=1) * (validity=1) = 0.446804425706464
+STARS = 2
+UD_Alemannic-DIVITAL	0.446804425706464	2
